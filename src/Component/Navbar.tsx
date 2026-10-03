@@ -1,4 +1,4 @@
-import logo from "./assets/logo-text.png";
+import logo from "../assets/logo-text.png";
 
 export default function Navbar() {
     return (
@@ -18,7 +18,7 @@ export default function Navbar() {
                 </div>
                 <div className="flex-1 flex items-center justify-end gap-4">
                     <button className="hover:text-pink-600 transition-colors">Sign In</button>
-                    <button className="btn rounded-full bg-pink-500 text-white ">Sign Up</button>
+                    <button className="btn rounded-full bg-brand-gradient text-white ">Sign Up</button>
 
                 </div>
             </div>
